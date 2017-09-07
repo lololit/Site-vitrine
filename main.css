@@ -1,0 +1,408 @@
+*{
+	width: 100%;
+}
+
+body{
+	background-color: #333333;
+}
+
+.container{
+    padding: 30px 0;
+  }
+
+/*Menu du haut*/
+	.top-menu{
+		width: 100%;
+		padding: 20px 0;
+		background-color:#333;
+		opacity: 0.9;
+		position: fixed;
+		z-index: 10;
+    height: 60px;
+    color: white;
+    font-size: 12px;
+	}
+
+	.mail{
+		display: inline;
+		list-style-type: none;
+    font-size: 16px;
+	}
+
+	i{
+		width: 20px;
+		height: 20px;
+	}
+
+/*End Menu du haut*/
+
+/*Presentation*/
+	.banner {
+  		height: 100vh;
+  		background-size: cover !important;
+  		display: flex;
+  		align-items: center;
+  		/*justify-content: center;*/
+      text-align: center;
+	}
+
+  .avatar-large {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #C9A600;
+  transition: background 0.3s ease;
+  width: 167px;
+  margin-top: 60px;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #e6bf00;
+  text-decoration: none;
+  color: white;
+}
+
+/*End Présentation*/
+
+/*Competences*/
+
+ 	@media only screen and (max-width : 992px) {
+  	.container-art {
+    	position: absolute;
+    	top: 40%;
+  	}
+  	 #index-banner .container-art {
+    	top: 10%;
+  	}
+	}
+
+	.rectangle{
+		border: 1px solid #C9A600;
+		width: 100%;
+		padding: 5px 5px 5px 5px;
+    text-align: center;
+	}
+	.domaine{
+		color: #FFF;
+	}
+
+	h3{
+		color: #FFF;
+	}
+/*End Competences*/
+
+/*Parallax*/
+	.parallax-desk{
+		height: 200px;
+		background-image: url(Images/desk.jpeg);
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+/*End Parallax*/
+
+/*Projets*/
+	.card{
+		position: relative;
+  	margin: 0.5rem 0 1rem 0;
+		background-color: #fff;
+		transition: box-shadow .25s;
+		border-radius: 2px;
+	}
+
+	.card-image {
+  		position: relative;
+	}
+
+	.shiva{
+		display: block;
+    	border-radius: 2px 2px 0 0;
+	    width: 100%;
+	}
+
+	.card-content {
+  		padding: 14px 24px;
+    	border-radius: 0 0 2px 2px;
+	}
+
+	.card-action {
+  		position: relative;
+	}
+
+	.card-image .card-title {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  max-width: 100%;
+	  padding: 10px;
+	}
+
+	.card-content p {
+	  margin: 0;
+	  color: inherit;
+	}
+
+	.card-content .card-title {
+	  display: block;
+	  line-height: 32px;
+	  margin-bottom: 8px;
+	}
+
+	.card-action {
+	  position: relative;
+	  background-color: inherit;
+	  border-top: 1px solid rgba(160, 160, 160, 0.2);
+	  padding: 16px 24px;
+	}
+
+	.card .card-action:last-child {
+	  border-radius: 0 0 2px 2px;
+	}
+
+	.card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	  color: #C9A600;
+	  margin-right: 24px;
+	  -webkit-transition: color .3s ease;
+	  transition: color .3s ease;
+	  text-transform: uppercase;
+	}
+
+	.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+	  color: #C9A600;
+	}
+
+/*End Projets*/
+
+/*Formation*/
+	.timeline{
+		font-family: 'Roboto', sans-serif;
+		position: relative;
+		/*min-height: 500px;*/
+		overflow: hidden;
+	}
+
+	.timeline-item:before {
+		content: '';
+		position: absolute;
+		background-color: #FFF;
+		width: 3px;
+		height: 100%;
+		left: 385px;
+	}
+
+  .timeline-item-mobil:before {
+    content: '';
+    position: absolute;
+    background-color: #FFF;
+    width: 3px;
+    height: 100%;
+    left: 95px;
+  }
+
+	.detail{
+		display: inline-block;
+		margin-bottom: 64px;
+	}
+
+	.timeline-item:first-child .detail{
+		margin-top: 64px;
+	}
+
+  .timeline-item-mobil:first-child .detail{
+    margin-top: 64px;
+  }
+
+	.annee{
+		color: #FFF;
+		font-size: 1.4em;
+		position: absolute;
+		color: #C9A600;
+	}
+
+	.annee .marker .description{
+		float: left;
+	}
+
+  .annee .marker .description-mobil{
+    float: left;
+  }
+
+	.marker{
+		position: relative;
+		z-index: 5;
+		border-radius: 50%;
+		background-color: #1D1D1D;
+		width: 32px;
+		height: 32px;
+		border: 3px solid #FFF;
+		transition: transform: .3s, background-color: .3s;
+	}
+
+	.detail:hover .marker{
+		transform: scale(1.4);
+		background-color: #FFF;
+	}
+
+	.description:before{
+		content: '';
+		position: absolute;
+		background-color: #FFF;
+		width: 4%;
+		height: 3px;
+		margin-left: -62px;
+		margin-top: 20px;
+	}
+
+  .description-mobil:before{
+    content: '';
+    position: absolute;
+    background-color: #FFF;
+    width: 6%;
+    height: 3px;
+    margin-left: -40px;
+    margin-top: 15px;
+  }
+
+	.description{
+		padding: 16px;
+		color: black;
+		width: 33%;
+		border-radius: 4px;
+		margin-left: 447px;
+		margin-top: -55px;
+		word-wrap: break-word;
+		opacity: .9;
+		transition: opacity .3s;
+		background-color: #FFF;
+	}
+
+  .description-mobil{
+    padding: 16px;
+    color: black;
+    width: 60%;
+    border-radius: 4px;
+    margin-left: 135px;
+    margin-top: -48px;
+    word-wrap: break-word;
+    opacity: .9;
+    transition: opacity .3s;
+    background-color: #FFF;
+  }
+
+	.detail:hover .description{
+		opacity: 1;
+	}
+
+	.description{
+		font-family: bold;
+		font-size: 1.2em;
+	}
+
+/*End Formation*/
+
+/*Experiences*/
+  .card4{
+  height: 200px;
+  width: 440px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: -13px -200px;
+  color: white;
+  position: relative;
+  margin-top: 85px;
+  }
+
+  .card2 {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+}
+
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 700;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 900;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.element {
+  position: relative;
+  color: white;
+}
+.top-border,
+.bottom-border {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+  left: 0;
+}
+.top-border {
+  top: 0;
+}
+.bottom-border {
+  bottom: 0;
+}
+.top-border:after,
+.top-border:before,
+.bottom-border:after,
+.bottom-border:before {
+  content: '';
+  width: 10%;
+  height: 100%;
+}
+.top-border:after,
+.top-border:before {
+  border-top: 2px solid #C9A600;
+}
+.bottom-border:after,
+.bottom-border:before {
+  border-bottom: 2px solid #C9A600;
+}
+.top-border:before,
+.bottom-border:before {
+  border-left: 2px solid #C9A600;
+}
+.top-border:after,
+.bottom-border:after {
+  border-right: 2px solid #C9A600;
+}
+
+/*End Experiences*/
