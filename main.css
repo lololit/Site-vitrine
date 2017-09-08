@@ -100,7 +100,6 @@ body{
 /*Parallax*/
 	.parallax-desk{
 		height: 200px;
-    width: 100%;
 		background-image: url(Images/desk.jpeg);
 		background-attachment: fixed;
     background-position: center;
