@@ -100,6 +100,7 @@ body{
 /*Parallax*/
 	.parallax-desk{
 		height: 200px;
+    z-index: -1;
 		background-image: url(Images/desk.jpeg);
 		background-attachment: fixed;
     background-position: center;
@@ -207,6 +208,15 @@ body{
     left: 95px;
   }
 
+  .timeline-item-tablet:before {
+    content: '';
+    position: absolute;
+    background-color: #FFF;
+    width: 3px;
+    height: 100%;
+    left: 150px;
+  }
+
 	.detail{
 		display: inline-block;
 		margin-bottom: 64px;
@@ -217,6 +227,10 @@ body{
 	}
 
   .timeline-item-mobil:first-child .detail{
+    margin-top: 64px;
+  }
+
+  .timeline-item-tablet:first-child .detail{
     margin-top: 64px;
   }
 
@@ -232,6 +246,10 @@ body{
 	}
 
   .annee .marker .description-mobil{
+    float: left;
+  }
+
+  .annee .marker .description-tablet{
     float: left;
   }
 
@@ -271,6 +289,16 @@ body{
     margin-top: 15px;
   }
 
+  .description-tablet:before{
+    content: '';
+    position: absolute;
+    background-color: #FFF;
+    width: 6%;
+    height: 3px;
+    margin-left: -55px;
+    margin-top: 15px;
+  }
+
 	.description{
 		padding: 16px;
 		color: black;
@@ -282,6 +310,8 @@ body{
 		opacity: .9;
 		transition: opacity .3s;
 		background-color: #FFF;
+    font-family: bold;
+    font-size: 1.2em;
 	}
 
   .description-mobil{
@@ -295,16 +325,36 @@ body{
     opacity: .9;
     transition: opacity .3s;
     background-color: #FFF;
+    font-family: bold;
+    font-size: 1.2em;
+  }
+
+  .description-tablet{
+    padding: 16px;
+    color: black;
+    width: 60%;
+    border-radius: 4px;
+    margin-left: 190px;
+    margin-top: -48px;
+    word-wrap: break-word;
+    opacity: .9;
+    transition: opacity .3s;
+    background-color: #FFF;
+    font-family: bold;
+    font-size: 1.2em;
   }
 
 	.detail:hover .description{
 		opacity: 1;
 	}
 
-	.description{
-		font-family: bold;
-		font-size: 1.2em;
-	}
+  .detail:hover .description-mobil{
+    opacity: 1;
+  }
+
+  .detail:hover .description-tablet{
+    opacity: 1;
+  }
 
 /*End Formation*/
 
