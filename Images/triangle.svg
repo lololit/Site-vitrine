@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2341px" height="880px" viewBox="0 0 2341 880" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9FC3C3" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.957862),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#8CFFFF" stop-opacity="0.971410779" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.790141),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#8CFFFF" stop-opacity="0.971410779" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#65F9F9" stop-opacity="0.971410779" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.617079,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-5">
+            <stop stop-color="#BBF3F3" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.747225,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-6">
+            <stop stop-color="#C3ECEC" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -289.000000)">
+            <polygon id="Triangle" fill="#5C8A8A" transform="translate(1277.500000, 427.500000) scale(-1, -1) translate(-1277.500000, -427.500000) " points="1277.5 290 1610 565 945 565"></polygon>
+            <polygon id="Rectangle" fill="#5C8A8A" points="1738.41194 852 2001.90913 1066.71764 1975.05101 1166.12398 1606.5002 1168.28238"></polygon>
+            <polygon id="Triangle" fill="#9FC3C3" points="966 670 648 779 648 561"></polygon>
+            <polygon id="Triangle" fill="#C7DFDF" points="1417 448.5 1702.05491 679.214462 1608 291"></polygon>
+            <polygon id="Rectangle-2" fill="#C7DFDF" points="1279 562 1447 562 1606.532 1168.27535 1067.29958 1168.27535"></polygon>
+            <polygon id="Rectangle-2" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" points="1416.28932 448.025131 1607.5821 602.974085 1605.60049 1146.90422 1606.58126 1168.23773"></polygon>
+            <polygon id="Rectangle-2" fill="url(#radialGradient-2)" style="mix-blend-mode: multiply;" points="312.895322 290 947 290 648.500521 562.449239 648.500521 952"></polygon>
+            <polygon id="Rectangle-2" fill="url(#radialGradient-3)" style="mix-blend-mode: multiply;" points="1607.21674 749.612328 1961.19426 472.607846 2076.16077 769.354913 2001.47466 1066.10198"></polygon>
+            <polygon id="Rectangle-2" fill-opacity="0.5" fill="url(#linearGradient-4)" style="mix-blend-mode: multiply;" points="0 599.643365 312.112902 289.484176 475.295276 606.266099 555.113864 1168.87823"></polygon>
+            <polygon id="Rectangle-2" fill="url(#radialGradient-5)" style="mix-blend-mode: multiply;" points="647.319684 778.34918 1279.31968 562.006285 1143.74099 952 647.319684 952"></polygon>
+            <polygon id="Triangle-2" fill="url(#radialGradient-6)" style="mix-blend-mode: multiply;" transform="translate(1826.824929, 384.324485) rotate(-51.000000) translate(-1826.824929, -384.324485) " points="1762.21469 154.62621 2134.22668 614.02276 1519.42317 469.175771"></polygon>
+            <polygon id="Triangle" fill="#9FC3C3" transform="translate(2157.771198, 727.708650) scale(-1, 1) translate(-2157.771198, -727.708650) " points="2340.31114 1165.92738 1975.23125 1165.92738 2117.09464 289.489916"></polygon>
+            <polygon id="Triangle" fill="#9FC3C3" transform="translate(895.107103, 1060.232172) scale(-1, 1) translate(-895.107103, -1060.232172) " points="1143.21421 952 647 952 722.979273 1168.46434"></polygon>
+            <polygon id="Rectangle-3" fill="#6B9090" points="653.681902 954.74237 1067.29958 1168.46434 1047.3552 1168.46434 554.846457 1168.46434 473.781303 606.755265"></polygon>
+        </g>
+    </g>
+</svg>

@@ -21,12 +21,16 @@
 	<!-- End Appel CSS -->
 
 	<!-- Appel fontawesome-->
-		<script src="https://use.fontawesome.com/a57f63dbaa.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<!-- End fontawesome-->
 
 	<!-- Appel animate-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!-- End animate-->
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -72,615 +76,680 @@
 	<body>
 
 	<!-- Menu du haut-->
-		<div class="top-menu">
-				<div class="row">
-					<div class="col-xs-10 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-						<ul>
-							<li class="mail"><i class="glyphicon glyphicon-envelope"></i>larcher.lorraine@gmail.com</li>
-						</ul>
-					</div>
-					<div class="col-xs-1 col-sm-1 col-sm-offset-5 col-md-1 col-md-offset-5">
-						<a class="linkedin" href="https://www.linkedin.com/in/lorraine-larcher-718a4a97/"><i class="fa fa-linkedin fa-2x animated infinite swing" aria-hidden="true"></i></a>
-					</div>
-				</div>
-		</div>
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <li class="col-md-3 col-lg-3 col-xs-8 col-xs-offset-1 navbar-wagon"><i class="glyphicon glyphicon-envelope" style="right: 5px; top: auto"></i>larcher.lorraine@gmail.com <a href="https://www.linkedin.com/in/lorraine-larcher-718a4a97/" class="linkedin col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-xs-5 col-xs-offset-1 fab fa-linkedin-in animated infinite swing"></a></li>
+
+  <!-- Right Navigation -->
+  <div class="row navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="col-md-2 navbar-wagon-item navbar-wagon-link"><center>A propos</center></a>
+    <a href="" class="col-md-2 navbar-wagon-item navbar-wagon-link"><center>Mes compétences</center></a>
+    <a href="" class="col-md-2 navbar-wagon-item navbar-wagon-link"><center>Mes derniers projets</center></a>
+    <a href="" class="col-md-2 navbar-wagon-item navbar-wagon-link"><center>Ma formation</center></a>
+    <a href="" class="col-md-2 navbar-wagon-item navbar-wagon-link"><center>Mes expériences</center></a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-mobile-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">A propos</a></li>
+        <li><a href="#">Mes compétences</a></li>
+        <li><a href="#">Mes derniers projets</a></li>
+        <li><a href="#">Ma formation</a></li>
+        <li><a href="#">Mes expériences</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 	<!-- End Menu du haut-->
 
 <!--Présentation-->
 
-<!--Ordinateur large-->
-	<div class="hidden-sm hidden-xs hidden-md banner" style="background-image: url('Images/fond.jpg'); height: 100vh">
-  	<div class="banner-content">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-3">
-    	   <img src="Images/Moi.jpg" alt="moi" style="width: 150px; margin-left: 25px; margin-top: 20px" class="img-responsive avatar-large">
+<!--Ordinateur-->
+	<div class="hidden-xs banner" style="background: url('Images/triangle.svg')">
+
+        <div class="moi" style="display: flex; align-items: center; justify-content: center;">
+          <img src="Images/Moi.jpg" alt="moi" class="img-responsive avatar-large" style="width: 160px; margin-top: 45px; ">
         </div>
-        <div class="col-md-6 col-md-offset-1">
-      	 <h2>Lorraine Larcher</h2>
-         <h4>Après avoir obtenu le BAC, je me suis orientée vers une double licence en Droit et en Economie-Gestion, ce qui m'a permis de mieux cerner les impératifs des entreprises. <br><br>Aujourd'hui, je poursuis ma formation au sein du Pôle Léonard de Vinci afin d'obtenir un master de Digital Marketing & Data Analytics. Pour parfaire ma formation, je suis à la recherche d'un stage de fin d'études à partir du 8 janvier 2017. </h4><br><br>
-         <a href="cv.png" target="_blank" class="btn-treehouse">Télécharger mon CV</a>
-        </div>
-        <div class="col-md-2 col-md-offset-5">
-        <center><i class="fa fa-chevron-down fa-4x animated infinite pulse fleche" aria-hidden="true" style="color: #C9A600; margin-top: 30px; position: absolute"></i></center>
-        </div>
-      </div>
-    </div>
+        <br>
+       <!--  <div class="row">
+          <div class="col-md-8 col-md-offset-2 background" style="background-color: rgba(0,0,0,.3)"> -->
+          	<div class="nom" style="margin-top: 110px; color: white">
+              <h1 style="font-size: 50px">Lorraine Larcher</h1>
+            </div>
+            <div class="metier" style="color: white">
+             <h3>Data Analyst/Scientist </h3> <br>
+            </div>
+            <div class="animated infinite pulse">
+             <a href="cv.png" target="_blank" class="btn-treehouse">Télécharger mon CV</a><br><br>
+            </div>
+            <center><i class="fa fa-chevron-down fa-4x animated infinite pulse fleche" aria-hidden="true" style="color: rgb(92, 138, 138); margin-top: 130px"></i></center>
+
+         <!--  </div>
+        </div> -->
+
 	</div>
-<!--Ordinateur large-->
-
-<!--Ordinateur-->
-  <div class="hidden-sm hidden-xs hidden-lg banner" style="background-image: url('Images/fond.jpg'); height: 60vh">
-    <div class="banner-content">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-3">
-         <img src="Images/Moi.jpg" alt="moi" style="width: 150px; margin-left: 25px" class="img-responsive avatar-large">
-        </div>
-        <div class="col-md-6 col-md-offset-1">
-         <h2>Lorraine Larcher</h2>
-         <h4>Après avoir obtenu le BAC, je me suis orientée vers une double licence en Droit et en Economie-Gestion, ce qui m'a permis de mieux cerner les impératifs des entreprises. <br><br>Aujourd'hui, je poursuis ma formation au sein du Pôle Léonard de Vinci afin d'obtenir un master de Digital Marketing & Data Analytics. Pour parfaire ma formation, je suis à la recherche d'un stage de fin d'études à partir du 8 janvier 2017. </h4><br><br>
-         <a href="cv.png" target="_blank" class="btn-treehouse">Télécharger mon CV</a>
-        </div>
-        <div class="col-md-2 col-md-offset-5">
-        <center><i class="fa fa-chevron-down fa-4x animated infinite pulse fleche" aria-hidden="true" style="color: #C9A600; position: absolute"></i></center>
-        </div>
-      </div>
-    </div>
-  </div>
 <!--Ordinateur-->
 
 <!--Mobile-->
-  <div class="hidden-md hidden-lg hidden-sm banner" style="background-image: url('Images/fond.jpg'); height: 90vh">
-    <div class="banner-content">
-      <div class="row">
-        <div class="col-xs-5 col-xs-offset-3">
-         <img src="Images/Moi.jpg" alt="moi" style="width: 150px; margin-left: 25px" class="img-responsive avatar-large">
-        </div>
-        <div class="col-xs-11 col-xs-offset-1">
-         <h2>Lorraine Larcher</h2>
-         <h5>Après avoir obtenu le BAC, je me suis orientée vers une double licence en Droit et en Economie-Gestion, ce qui m'a permis de mieux cerner les impératifs des entreprises. <br><br>Aujourd'hui, je poursuis ma formation au sein du Pôle Léonard de Vinci afin d'obtenir un master de Digital Marketing & Data Analytics. Pour parfaire ma formation, je suis à la recherche d'un stage de fin d'études à partir du 8 janvier 2017. </h5><br><br>
-         <a href="cv.png" target="_blank" class="btn-treehouse">Télécharger mon CV</a>
-        </div>
-      </div>
-    </div>
-  </div>
-<!--Mobile-->
+  <div class="hidden-lg hidden-md banner" style="background: url('Images/triangle2.svg'); height: 670px">
 
-<!--Tablette-->
-  <div class="hidden-md hidden-lg hidden-xs banner" style="background-image: url('Images/fond.jpg'); height: 100vh">
-    <div class="banner-content">
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-3">
-         <img src="Images/Moi.jpg" alt="moi" style="width: 150px; margin-left: 45px" class="img-responsive avatar-large">
+        <div class="moi" style="display: flex; align-items: center; justify-content: center;">
+          <img src="Images/Moi.jpg" alt="moi" class="img-responsive avatar-large" style="width: 120px; margin-top: 80px; ">
         </div>
-        <div class="col-sm-6 col-sm-offset-2">
-         <h2>Lorraine Larcher</h2>
-         <h4>Après avoir obtenu le BAC, je me suis orientée vers une double licence en Droit et en Economie-Gestion, ce qui m'a permis de mieux cerner les impératifs des entreprises. <br><br>Aujourd'hui, je poursuis ma formation au sein du Pôle Léonard de Vinci afin d'obtenir un master de Digital Marketing & Data Analytics. Pour parfaire ma formation, je suis à la recherche d'un stage de fin d'études à partir du 8 janvier 2017. </h4><br><br>
-         <a href="cv.png" target="_blank" class="btn-treehouse">Télécharger mon CV</a>
-        </div>
-        <div class="col-sm-12">
-          <center><i class="fa fa-chevron-down fa-4x animated infinite pulse fleche" aria-hidden="true" style="color: #C9A600; margin-top: 40px; position: absolute"></i></center>
-        </div>
-      </div>
-    </div>
-  </div>
-<!--Tablette-->
+        <br>
+       <!--  <div class="row">
+          <div class="col-md-8 col-md-offset-2 background" style="background-color: rgba(0,0,0,.3)"> -->
+            <div class="nom" style="margin-top: 60px; color: white">
+              <h3 style="font-size: 50px">Lorraine Larcher</h3>
+            </div>
+            <div class="metier" style="color: white">
+             <h4>Data Analyst/Scientist </h4> <br>
+            </div>
+            <div class="animated infinite pulse">
+             <a href="cv.png" target="_blank" class="btn-treehouse" style="font-size: 12px">Télécharger mon CV</a><br><br>
+            </div>
+            <center><i class="fa fa-chevron-down fa-4x animated infinite pulse fleche" aria-hidden="true" style="color: white; margin-top: 100px"></i></center>
 
+         <!--  </div>
+        </div> -->
+
+  </div>
+<!--End Mobile-->
 <!--End Presentation-->
 
-<!--Competences-->
-  <div class="container">
-		<center><h3 style="padding-bottom: 50px">Mes compétences</h3></center>
+<!--A propos-->
+<!-- Ordinateur -->
+  <div class="hidden-xs container" style="padding-top: 30px; padding-bottom: 65px">
 
-    <!-- Ordinateur -->
-    <div class="hidden-xs row">
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Photoshop</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Illustrator</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Indesign</span></p>
-			</div>
-      <div class="col-sm-3 col-md-2">
-        <p class="rectangle"><span class="domaine">Sketch</span></p>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <img src="Images/computer.jpg" alt="computer" class="img-responsive" style="padding-top: 30px">
       </div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">SEM</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Wordpress</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">HTML</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">CSS</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Invision</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Bootstrap</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Emailing</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Google Analytics</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Etude de marché</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Gestion du budget</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Cahier des charges</span></p>
-			</div>
-			<div class="col-sm-3 col-md-2">
-				<p class="rectangle"><span class="domaine">Tableau de bord</span></p>
-			</div>
-      <div class="col-sm-3 col-md-2">
-        <p class="rectangle"><span class="domaine">Gestion de projet</span></p>
+      <div class="col-md-5 col-lg-5">
+        <center><h3 style="padding-top: 20px; padding-left: 75px">A propos</h3></center>
       </div>
-		</div>
-    <!-- Ordinateur -->
-
-    <!-- Mobile -->
-    <div class="hidden-lg hidden-md hidden-sm row">
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Photoshop</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">Illustrator</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Indesign</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Sketch</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">SEM</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Wordpress</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">HTML</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">CSS</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">Invision</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Bootstrap</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">Emailing</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Google Analytics</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">Etude de marché</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Gestion du budget</span></p>
-      </div>
-      <div class="col-xs-4">
-        <p class="rectangle"><span class="domaine">Cahier des charges</span></p>
-      </div>
-      <div class="col-xs-4 col-xs-offset-2">
-        <p class="rectangle"><span class="domaine">Tableau de bord</span></p>
+      <div class="col-md-1 col-md-offset-3 col-lg-1 col-lg-offset-3" style= "border-bottom : 3px solid rgb(92, 138, 138); margin-left: 228px; width: 40px"></div>
+      <div class="col-md-6 col-lg-6">
+        <center><h4><br> Depuis mon plus jeune âge, je suis passionnée par les nouvelles technologies. A l'affût du progrès, j'ai toujours adoré tester les nouveautés du moment. Peu à peu, je me suis  orientée vers l'expérience utilisateur qui me captive beaucoup. <br> <br> J'ai enrichi mes connaissances grâce au Master de Digital Marketing & Data Analytics que j'ai effectué. J'ai ainsi obtenu des bases fondamentales en web et en data. J'ai également réalisé une formation intensive en Data Science dans le but de maîtriser les outils de web analytics, SQL, Python et le Machine Learning. <br> <br> Je suis en recherche active d'emploi dans le domaine de la data analytics/science.</h4></center>
       </div>
     </div>
-    <!-- Mobile -->
+
+  </div>
+<!-- End Ordinateur -->
+
+<!-- Mobile -->
+  <div class="hidden-lg hidden-md container" style="padding-top: 30px; padding-bottom: 40px">
+    <center><h3>A propos</h3></center>
+    <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 80px; margin-left: 135px; width: 40px"></div>
+
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+        <center><p style="font-size: 15px"><br> Depuis mon plus jeune âge, je suis passionnée par les nouvelles technologies. A l'affût du progrès, j'ai toujours adoré tester les nouveautés du moment. Peu à peu, je me suis  orientée vers l'expérience utilisateur qui me captive beaucoup. <br> <br> J'ai enrichi mes connaissances grâce au Master de Digital Marketing & Data Analytics que j'ai effectué. J'ai ainsi obtenu des bases fondamentales en web et en data. J'ai également réalisé une formation intensive en Data Science dans le but de maîtriser les outils de web analytics, SQL, Python et le Machine Learning. <br> <br> Je suis en recherche active d'emploi dans le domaine de la data analytics/science.</p></center>
+      </div>
+    </div>
+
+  </div>
+<!-- End Mobile -->
+<!--End A propos-->
+
+
+<!--Competences-->
+<!-- Ordinateur -->
+  <div class="hidden-xs container" style="background-color: #eff5f5; padding-top: 10px; box-shadow: 0 10px 85px rgba(0,0,0,0.3)">
+    <center><h3>Mes compétences</h3></center>
+    <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 80px; margin-left: 473px"></div>
+
+    <div class="row" style="padding-left: 70px; padding-top: 30px">
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/python.png">
+          <div class="message-name">
+            <h3>Python</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/anaconda.png">
+          <div class="message-name">
+            <h3>Anaconda</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/jupyter.png">
+          <div class="message-name">
+            <h3>Jupyter notebook</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/spyder.png">
+          <div class="message-name">
+            <h3>Spyder</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/tableau.png">
+          <div class="message-name">
+            <h3>Tableau</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-left: 70px">
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/bigquery.png">
+          <div class="message-name">
+            <h3>Google big query</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/cloud.png">
+          <div class="message-name">
+            <h3>Google cloud platform</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/mysql.png">
+          <div class="message-name">
+            <h3>MySQL</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/postgre.png">
+          <div class="message-name">
+            <h3>PostgreSQL</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/panda.jpg">
+          <div class="message-name">
+            <h3>Panda librairie Python</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-left: 70px">
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/numpy.png">
+          <div class="message-name">
+            <h3>Numpy librairie Python</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/github.svg">
+          <div class="message-name">
+            <h3>Github</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/html5.png">
+          <div class="message-name">
+            <h3>HTML5</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/css3.png">
+          <div class="message-name">
+            <h3>CSS3</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/sketch.png">
+          <div class="message-name">
+            <h3>Sketch</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-left: 70px; padding-bottom: 30px">
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/bootstrap.png">
+          <div class="message-name">
+            <h3>Bootstrap</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/materializer.png">
+          <div class="message-name">
+            <h3>Materialize</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/wordpress.png">
+          <div class="message-name">
+            <h3>Wordpress</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/analytic.png">
+          <div class="message-name">
+            <h3>Google Analytics</h3>
+          </div>
+      </div>
+      <div class="message col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+        <img class="avatar-comp" src="Images/Logo/at.png">
+          <div class="message-name">
+            <h3>AT internet</h3>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End Ordinateur -->
+
+<!-- Mobile -->
+  <div class="hidden-md hidden-lg container" style="background-color: #eff5f5; padding-top: 10px; box-shadow: 0 10px 85px rgba(0,0,0,0.3); width: 95%">
+    <center><h3>Mes compétences</h3></center>
+    <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 80px; margin-left: 78px"></div>
+
+    <div class="row" style="padding-top: 20px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/python.png">
+          <div class="message-name">
+            <h3>Python</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/anaconda.png">
+          <div class="message-name">
+            <h3>Anaconda</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/jupyter.png">
+          <div class="message-name">
+            <h3>Jupyter notebook</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/spyder.png">
+          <div class="message-name">
+            <h3>Spyder</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/tableau.png">
+          <div class="message-name">
+            <h3>Tableau</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/bigquery.png">
+          <div class="message-name">
+            <h3>Google big query</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/cloud.png">
+          <div class="message-name">
+            <h3>Google cloud platform</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/mysql.png">
+          <div class="message-name">
+            <h3>MySQL</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/postgre.png">
+          <div class="message-name">
+            <h3>PostgreSQL</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/panda.jpg">
+          <div class="message-name">
+            <h3>Panda librairie Python</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/numpy.png">
+          <div class="message-name">
+            <h3>Numpy librairie Python</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/github.svg">
+          <div class="message-name">
+            <h3>Github</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/html5.png">
+          <div class="message-name">
+            <h3>HTML5</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/css3.png">
+          <div class="message-name">
+            <h3>CSS3</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/sketch.png">
+          <div class="message-name">
+            <h3>Sketch</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/bootstrap.png">
+          <div class="message-name">
+            <h3>Bootstrap</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/materializer.png">
+          <div class="message-name">
+            <h3>Materialize</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/wordpress.png">
+          <div class="message-name">
+            <h3>Wordpress</h3>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="message col-xs-4 col-xs-offset-1">
+        <img class="avatar-comp" src="Images/Logo/analytic.png">
+          <div class="message-name">
+            <h3>Google Analytics</h3>
+          </div>
+      </div>
+      <div class="message col-xs-4 col-xs-offset-2">
+        <img class="avatar-comp" src="Images/Logo/at.png">
+          <div class="message-name">
+            <h3>AT internet</h3>
+          </div>
+      </div>
+
+    </div>
+  </div>
+<!-- End Mobile -->
+<!--End Competences-->
+
+  <!-- Mes projets-->
+  <!-- Ordinateur-->
+    <div class="hidden-xs bloc" style="padding-bottom: 40px">
+      <center><h3 style="padding-top: 40px">Mes derniers projets</h3></center>
+      <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 120px; margin-left: 612px"></div>
+
+      <div class="waiter" style="padding-bottom: 40px">
+
+        <div class="row" style="margin-top: 20px; padding-top: 20px; padding-bottom: 20px; margin-left: 40px">
+          <div class="col-md-1 col-md-offset-2 col-lg-1 col-lg-offset-2">
+            <a href="https://waiter.fr/" target="_blank"><img src="Images/waiter.png"></a>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <p style="text-align: center; padding-top: 10px; font-size: 18px">Projet portant sur Waiter, plateforme SaaS permettant aux restaurateurs, dans un environnement social et grâce à un algorithme de matching, de recruter le candidat qui correspond à leurs besoins.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="border: 1px outset; padding-bottom: 20px">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1" style="margin-top: 60px">
+              <h2>Data science</h2>
+              <p style="font-size: 15px; opacity: 0.9">L'objectif étant de prédire si le message du recruteur a été lu ou non, et d'en déduire les caractéristiques des candidats dans ces deux cas de figure, afin d’améliorer l’expérience du recrutement.</p>
+              <div class="bouton" style="margin-top: 20px"><a target="_blank" class="btn-treehouse">Accéder à l'article</a></div>
+            </div>
+            <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
+              <div class="carre" style="background-image: url('Images/lecture.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="etude" style="padding-bottom: 40px">
+
+        <div class="row" style="padding-top: 20px; padding-bottom: 25px; margin-left: 63px">
+          <div class="col-md-1 col-md-offset-2 col-lg-1 col-lg-offset-2">
+            <img src="Images/books.png">
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <p style="text-align: center; padding-top: 10px; font-size: 18px">Projet d'étude sur les préférences, intérêts, habitudes, opinions et peurs des slovaques de 15-30 ans (Kaggle) </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="border: 1px outset; padding-bottom: 20px">
+            <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
+              <div class="carre" style="background-image: url('Images/slovaques.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
+            </div>
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1" style="margin-top: 70px">
+              <h2>Data analytics</h2>
+              <p style="font-size: 15px; opacity: 0.9">L'objectif étant de savoir si les slovaques ont les mêmes goûts en termes de films et les mêmes phobies en fonction de leurs critères démographiques ?</p>
+              <div class="bouton" style="margin-top: 20px"><a href="slovaques.html" target="_blank" class="btn-treehouse">Accéder au notebook</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="etude">
+
+        <div class="row" style="padding-top: 20px; padding-bottom: 25px; margin-left: 100px">
+          <div class="col-md-1 col-md-offset-2 col-lg-1 col-lg-offset-2">
+            <a><img src="Images/speaking.png"></a>
+          </div>
+          <div class="col-md-5 col-lg-5">
+            <p style="text-align: center; padding-top: 10px; font-size: 18px">Projet d'étude sur les verbatims issus de Twitter via un accès direct de l'API </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="border: 1px outset; padding-bottom: 20px">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1" style="margin-top: 70px">
+              <h2>Analyse sémantique</h2>
+              <p style="font-size: 15px; opacity: 0.9">L'objectif étant d'analyser les sentiments et les nuages de mots sur Twitter pour identifier les verbatims les plus utilisés.</p>
+              <div class="bouton" style="margin-top: 20px"><a href="semantic.html" target="_blank" class="btn-treehouse">Accéder au notebook</a></div>
+            </div>
+            <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
+              <div class="carre" style="background-image: url('Images/semantique.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
   </div>
 
-<!--End Competences-->
+  <!-- End Ordinateur-->
 
-	<!-- Mes projets-->
+  <!-- Mobile-->
+    <div class="hidden-md hidden-lg bloc" style="padding-bottom: 40px">
+      <center><h3 style="padding-top: 35px">Mes derniers projets</h3></center>
+      <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 120px; margin-left: 91px"></div>
 
-	<div class="hidden-xs parallax-desk"></div>
-  <img class="hidden-lg hidden-md hidden-sm" src="Images/desk1.png">
-		<div class="container">
-			<center><h3 style="padding-bottom: 50px">Mes projets</h3></center>
+      <div class="waiter" style="padding-bottom: 10px">
 
-				<!-- Ordinateur -->
-        <div class="hidden-xs hidden-sm row">
-			    <div class="col-md-6">
-			      <div class="card" style="width: 100%">
-			       <div class="card-image">
-			        <img src="Images/shiva.png" alt="site" class="shiva">
-			       </div>
-			       <div class="card-content">
-			        <h4>Shiva Paris 1er - 2e et 4e</h4>
-			       </div>
-			       <div class="card-action">
-			        <a href="http://www.ajuloom.fr/" target="_blank">Accéder au site</a>
-			       </div>
-			      </div>
-					</div>
-
-          <div class="col-md-6">
-            <div class="card" style="width: 86%; margin-left: 50px">
-              <div class="card-content">
-              <h4><center>Prototype de l'application JobGo</center></h4>
-              </div>
-              <div class="card-image">
-                <img src="Images/jobgo.png" alt="site" class="shiva">
-              </div>
-              <div class="card-content">
-              <h5>Cette application cible les jeunes en recherche d'un job étudiant. La carte intéractive leur permet de trouver rapidement un emploi.</h5>
-              </div>
-            </div>
+        <div class="row" style="margin-top: 10px; padding-top: 20px; margin-left: 5px">
+          <div class="col-xs-2">
+            <a href="https://waiter.fr/" target="_blank"><img src="Images/waiter.png" style="margin-left: 15px; margin-top: 35px"></a>
+          </div>
+          <div class="col-xs-10">
+            <p style="padding-top: 10px; font-size: 15px">Projet portant sur Waiter, plateforme SaaS permettant aux restaurateurs, dans un environnement social et grâce à un algorithme de matching, de recruter le candidat qui correspond à leurs besoins.</p>
           </div>
         </div>
 
-        <div class="hidden-xs hidden-sm row" style="margin-top: 40px">
-          <div class="col-md-6">
-            <div class="card" style="width: 100%">
-              <div class="card-image">
-                <div class="card-content">
-                  <h4><center>Hackaton en collaboration avec la ville de Colombes</center><br></h4><h5>Challenge 12 : Consommation et production responsables <br> <br>Défi : Quelles actions la ville de Colombes pourrait-elle mener afin de promouvoir une consommation responsable sur son territoire, en s’appuyant sur les axes du développement durable ?</h5>
-                </div>
-
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="Images/deux.png" alt="lampadaires">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/trois.png" alt="jardins">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/quatre.png" alt="partage">
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-                  <h4 style="color: #C9A600">Victoire du challenge</h4>
-                </div>
-
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" style="border: 1px outset; padding-bottom: 20px; left: 16px">
+            <div class="col-xs-10 col-xs-offset-1" style="margin-top: 10px">
+              <h4>Data science</h4>
+              <h6 style="opacity: 0.9">L'objectif étant de prédire si le message du recruteur a été lu ou non, et d'en déduire les caractéristiques des candidats dans ces deux cas de figure, afin d’améliorer l’expérience du recrutement.</h6>
+              <div class="bouton" style="margin-top: 20px; font-size: 12px"><a target="_blank" class="btn-treehouse">Accéder à l'article</a></div>
             </div>
-          </div>
-
-          <div class="col-md-5">
-            <div class="card" style="width: 105%; margin-left: 50px">
-              <div class="card-content">
-                <h4><center>Mémoire de recherche</center></h4><br><h5>LE ROLE DU MAGASIN DE DEMAIN : ENTRE EXISTENCE ET DISPARITION</h5>
-              </div>
-              <div class="card-image">
-                <img src="Images/memoire.png" alt="site" class="shiva" style="background-position: 10px 10px">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Ordinateur -->
-
-        <!-- Tablette -->
-        <div class="hidden-xs hidden-lg hidden-md row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="card" style="width: 100%">
-              <div class="card-image">
-                <img src="Images/shiva.png" alt="site" class="shiva">
-              </div>
-              <div class="card-content">
-                <h4>Shiva Paris 1er - 2e et 4e</h4>
-              </div>
-              <div class="card-action">
-                <a href="http://www.ajuloom.fr/" target="_blank">Accéder au site</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px">
-              <div class="card-content">
-                <h4><center>Prototype de l'application JobGo</center></h4>
-              </div>
-              <div class="card-image">
-                <img src="Images/jobgo.png" alt="site" class="shiva">
-              </div>
-              <div class="card-content">
-                <h5>Cette application cible les jeunes en recherche d'un job étudiant. La carte intéractive leur permet de trouver rapidement un emploi.</h5>
-              </div>
+            <div class="col-xs-12" style="margin-top: 10px; margin-bottom: 20px">
+              <div class="carre" style="background-image: url('Images/lecture.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
             </div>
           </div>
         </div>
-
-        <div class="hidden-xs hidden-lg hidden-md row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px">
-              <div class="card-image">
-                <div class="card-content">
-                  <h4><center>Hackaton en collaboration avec la ville de Colombes</center><br></h4><h5>Challenge 12 : Consommation et production responsables <br> <br>Défi : Quelles actions la ville de Colombes pourrait-elle mener afin de promouvoir une consommation responsable sur son territoire, en s’appuyant sur les axes du développement durable ?</h5>
-                </div>
-
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="Images/deux.png" alt="lampadaires">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/trois.png" alt="jardins">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/quatre.png" alt="partage">
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-                  <h4 style="color: #C9A600">Victoire du challenge</h4>
-                </div>
-
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
-
-            </div>
-          </div>
-
-
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px">
-              <div class="card-content">
-                <h4><center>Mémoire de recherche</center></h4><br><h5>LE ROLE DU MAGASIN DE DEMAIN : ENTRE EXISTENCE ET DISPARITION</h5>
-              </div>
-              <div class="card-image">
-                <img src="Images/memoire.png" alt="site" class="shiva" style="background-position: 10px 10px">
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Tablette -->
-
-        <!-- Mobile -->
-        <div class="hidden-sm hidden-lg hidden-md row">
-          <div class="col-xs-10 col-xs-offset-1">
-            <div class="card" style="width: 100%; margin-left: 13px">
-              <div class="card-image">
-                <img src="Images/shiva.png" alt="site" class="shiva">
-              </div>
-              <div class="card-content">
-                <h4>Shiva Paris 1er - 2e et 4e</h4>
-              </div>
-              <div class="card-action">
-                <a href="http://www.ajuloom.fr/" target="_blank">Accéder au site</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-10 col-xs-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px; margin-left: 13px">
-              <div class="card-content">
-                <h4><center>Prototype de l'application JobGo</center></h4>
-              </div>
-              <div class="card-image">
-                <img src="Images/jobgo.png" alt="site" class="shiva">
-              </div>
-              <div class="card-content">
-                <h5>Cette application cible les jeunes en recherche d'un job étudiant. La carte intéractive leur permet de trouver rapidement un emploi.</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden-sm hidden-lg hidden-md row">
-          <div class="col-xs-10 col-xs-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px; margin-left: 13px">
-              <div class="card-image">
-                <div class="card-content">
-                  <h4><center>Hackaton en collaboration avec la ville de Colombes</center><br></h4><h5>Challenge 12 : Consommation et production responsables <br> <br>Défi : Quelles actions la ville de Colombes pourrait-elle mener afin de promouvoir une consommation responsable sur son territoire, en s’appuyant sur les axes du développement durable ?</h5>
-                </div>
-
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="Images/deux.png" alt="lampadaires">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/trois.png" alt="jardins">
-                    </div>
-
-                    <div class="item">
-                      <img src="Images/quatre.png" alt="partage">
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-                  <h4 style="color: #C9A600">Victoire du challenge</h4>
-                </div>
-
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
-
-            </div>
-          </div>
-
-
-          <div class="col-xs-10 col-xs-offset-1">
-            <div class="card" style="width: 100%; margin-top: 40px; margin-left: 13px">
-              <div class="card-content">
-                <h4><center>Mémoire de recherche</center></h4><br><h5>LE ROLE DU MAGASIN DE DEMAIN : ENTRE EXISTENCE ET DISPARITION</h5>
-              </div>
-              <div class="card-image">
-                <img src="Images/memoire.png" alt="site" class="shiva" style="background-position: 10px 10px">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Mobile -->
 
       </div>
 
+      <div class="etude" style="padding-bottom: 10px">
+
+        <div class="row" style="margin-top: 10px; padding-top: 20px; margin-left: -4px">
+          <div class="col-xs-2" style="margin-left: 25px">
+            <img src="Images/books.png" style="margin-left: 15px; margin-top: 20px">
+          </div>
+          <div class="col-xs-9">
+            <p style="padding-top: 10px; font-size: 15px">Projet d'étude sur les préférences, intérêts, habitudes, opinions et peurs des slovaques de 15-30 ans (Kaggle) </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" style="border: 1px outset; padding-bottom: 20px; left: 16px">
+            <div class="col-xs-10 col-xs-offset-1" style="margin-top: 10px">
+              <h4>Data analytics</h4>
+              <h6 style="opacity: 0.9">L'objectif étant de savoir si les slovaques ont les mêmes goûts en termes de films et les mêmes phobies en fonction de leurs critères démographiques ?</h6>
+              <div class="bouton" style="margin-top: 20px; font-size: 12px"><a href="slovaques.html" target="_blank" class="btn-treehouse">Accéder au notebook</a></div>
+            </div>
+            <div class="col-xs-12" style="margin-top: 10px; margin-bottom: 20px">
+              <div class="carre" style="background-image: url('Images/slovaques.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="etude" style="padding-bottom: 10px">
+
+        <div class="row" style="margin-top: 10px; padding-top: 20px">
+          <div class="col-xs-2" style="margin-left: 25px">
+            <a><img src="Images/speaking.png" style="margin-top: 10px; margin-left: 20px"></a>
+          </div>
+          <div class="col-xs-9">
+            <p style="padding-top: 10px; font-size: 15px">Projet d'étude sur les verbatims issus de Twitter via un accès direct de l'API </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" style="border: 1px outset; padding-bottom: 20px; left: 16px">
+            <div class="col-xs-10 col-xs-offset-1" style="margin-top: 10px">
+              <h4>Analyse sémantique</h4>
+              <h6 style="opacity: 0.9">L'objectif étant d'analyser les sentiments et les nuages de mots sur Twitter pour identifier les verbatims les plus utilisés.</h6>
+              <div class="bouton" style="margin-top: 20px; font-size: 12px"><a href="semantic.html" target="_blank" class="btn-treehouse">Accéder à l'article</a></div>
+            </div>
+            <div class="col-xs-12" style="margin-top: 10px; margin-bottom: 20px">
+              <div class="carre" style="background-image: url('Images/semantique.png');box-shadow: 0 8px 20px rgba(0,0,0,0.3)"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </div>
+  <!-- End Mobile-->
 	<!-- End Mes projets-->
 
 	<!-- Ma formation-->
+  <!-- Ordinateur-->
+    <div class="hidden-xs container" style="padding-bottom: 40px; margin-top: 25px; background-color: #eff5f5; padding-top: 10px; box-shadow: 0 10px 85px rgba(0,0,0,0.3); width: 52%; margin-top: 60px">
+      <center><h3 style="padding-top: 10px">Ma formation</h3></center>
+      <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 75px; margin-left: 288px"></div>
 
-	<div class="hidden-xs parallax-desk"></div>
-  <img class="hidden-lg hidden-md hidden-sm" src="Images/desk2.png">
-		<div class="container">
-			<center><h3 style="padding-bottom: 50px">Ma formation</h3></center>
+      <div class="hidden-xs timeline" style="margin-top: 40px">
 
-			<!-- Ordinateur -->
-      <div class="hidden-xs hidden-sm timeline">
-
-				<section class="timeline-item">
-					<div class="detail">
-						<time datetime="2018" class="annee" style="margin-left: 310px">2018</time>
-						<div class="marker" style="margin-left: 370px"></div>
-						<div class="description">
-							<p>Année prévue d'obtention du master Digital Marketing & Data Analytics au Pôle Léonard de Vinci (92).</p>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="timeline-item">
-					<div class="detail">
-						<time datetime="2016" class="annee" style="margin-left: 310px">2016</time>
-						<div class="marker" style="margin-left: 370px"></div>
-						<div class="description">
-							<p>Obtention d'une double licence Droit-Economie gestion à l'Université Paris Ouest Nanterre La Défense (92).</p>
-						</div>
-					</div>
-				</section>
-
-				<section class="timeline-item">
-					<div class="detail">
-						<time datetime="2013" class="annee" style="margin-left: 310px">2013</time>
-						<div class="marker" style="margin-left: 370px"></div>
-						<div class="description">
-							<p>Obtention du baccalauréeat scientifique au Lycée Paul Langevin (92).</p>
-						</div>
-					</div>
-				</section>
-
-			</div>
-      <!-- Ordinateur -->
-
-      <!-- Tablette -->
-      <div class="hidden-xs hidden-lg hidden-md timeline">
-
-        <section class="timeline-item-tablet">
-          <div class="detail">
-            <time datetime="2018" class="annee" style="margin-left: 75px">2018</time>
-            <div class="marker" style="margin-left: 135px"></div>
-            <div class="description-tablet">
-              <p>Année prévue d'obtention du master Digital Marketing & Data Analytics au Pôle Léonard de Vinci (92).</p>
+          <section class="timeline-item">
+            <div class="detail">
+              <time datetime="2018" class="annee" style="margin-left: 170px">2018</time>
+              <div class="marker" style="margin-left: 235px"></div>
+              <div class="description">
+                <p>Formation intensive JEDHA en Data science.</p>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-
-        <section class="timeline-item-tablet">
-          <div class="detail">
-            <time datetime="2016" class="annee" style="margin-left: 75px">2016</time>
-            <div class="marker" style="margin-left: 135px"></div>
-            <div class="description-tablet">
-              <p>Obtention d'une double licence Droit-Economie gestion à l'Université Paris Ouest Nanterre La Défense (92).</p>
+          <section class="timeline-item">
+            <div class="detail">
+              <time datetime="2018" class="annee" style="margin-left: 170px">2018</time>
+              <div class="marker" style="margin-left: 235px"></div>
+              <div class="description">
+                <p>Obtention du master Digital Marketing & Data Analytics au Pôle Léonard de Vinci (92).</p>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section class="timeline-item-tablet">
-          <div class="detail">
-            <time datetime="2013" class="annee" style="margin-left: 75px">2013</time>
-            <div class="marker" style="margin-left: 135px"></div>
-            <div class="description-tablet">
-              <p>Obtention du baccalauréeat scientifique au Lycée Paul Langevin (92).</p>
+
+          <section class="timeline-item">
+            <div class="detail">
+              <time datetime="2016" class="annee" style="margin-left: 170px">2016</time>
+              <div class="marker" style="margin-left: 235px"></div>
+              <div class="description">
+                <p>Obtention d'une double licence Droit-Economie gestion à l'Université Paris Ouest Nanterre La Défense (92).</p>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+
+          <section class="timeline-item">
+            <div class="detail">
+              <time datetime="2013" class="annee" style="margin-left: 170px">2013</time>
+              <div class="marker" style="margin-left: 235px"></div>
+              <div class="description">
+                <p>Obtention du baccalauréeat scientifique au Lycée Paul Langevin (92).</p>
+              </div>
+            </div>
+          </section>
+
+        </div>
 
       </div>
-      <!-- Tablette -->
+  <!-- End Ordinateur-->
 
-      <!-- Mobile -->
-      <div class="hidden-lg hidden-md hidden-sm timeline">
+  <!-- Mobile -->
+    <div class="hidden-md hidden-lg container" style="padding-bottom: 40px; background-color: #eff5f5; box-shadow: 0 10px 85px rgba(0,0,0,0.3); width: 95%">
+      <center><h3 style="padding-top: 10px">Ma formation</h3></center>
+      <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 75px; margin-left: 104px"></div>
+
+      <div class="hidden-lg hidden-md hidden-sm timeline" style="margin-top: 20px">
 
         <section class="timeline-item-mobil">
           <div class="detail">
             <time datetime="2018" class="annee" style="margin-left: 20px">2018</time>
             <div class="marker" style="margin-left: 80px"></div>
             <div class="description-mobil">
-              <p>Année prévue d'obtention du master Digital Marketing & Data Analytics au Pôle Léonard de Vinci (92).</p>
+              <p style="font-size: 12px">Formation intensive JEDHA en Data science.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="timeline-item-mobil">
+          <div class="detail">
+            <time datetime="2018" class="annee" style="margin-left: 20px">2018</time>
+            <div class="marker" style="margin-left: 80px"></div>
+            <div class="description-mobil">
+              <p style="font-size: 12px">Obtention du master Digital Marketing & Data Analytics au Pôle Léonard de Vinci (92).</p>
             </div>
           </div>
         </section>
@@ -691,7 +760,7 @@
             <time datetime="2016" class="annee" style="margin-left: 20px">2016</time>
             <div class="marker" style="margin-left: 80px"></div>
             <div class="description-mobil">
-              <p>Obtention d'une double licence Droit-Economie gestion à l'Université Paris Ouest Nanterre La Défense (92).</p>
+              <p style="font-size: 12px">Obtention d'une double licence Droit-Economie gestion à l'Université Paris Ouest Nanterre La Défense (92).</p>
             </div>
           </div>
         </section>
@@ -701,207 +770,190 @@
             <time datetime="2013" class="annee" style="margin-left: 20px">2013</time>
             <div class="marker" style="margin-left: 80px"></div>
             <div class="description-mobil">
-              <p>Obtention du baccalauréeat scientifique au Lycée Paul Langevin (92).</p>
+              <p style="font-size: 12px">Obtention du baccalauréeat scientifique au Lycée Paul Langevin (92).</p>
             </div>
           </div>
         </section>
 
       </div>
-      <!-- Mobile -->
 
-	</div>
+    </div>
+  <!-- End Mobile -->
 
 	<!-- End Ma formation-->
 
 	<!--Mes experiences-->
+  <!-- Ordinateur -->
+  <div class="hidden-xs bloc" style="padding-bottom: 40px; margin-top: 50px">
+    <center><h3 style="padding-top: 10px">Mes expériences</h3></center>
+    <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 100px; margin-left: 628px"></div>
 
-	<div class="hidden-xs parallax-desk"></div>
-  <img class="hidden-lg hidden-md hidden-sm" src="Images/desk3.png">
-		<div class="container">
-			<center><h3 style="padding-bottom: 50px">Mes expériences</h3></center>
+      <div class="row" style="margin-top: 40px">
+        <div class="col-md-12 col-lg-12">
+          <div style="display:inline-block;width:100%;overflow-y:auto;">
+          <ul class="chrono chrono-horizontal" style="padding-left: 80px">
 
-      <!-- Ordinateur -->
-      <div class="hidden-xs hidden-sm row">
-        <div class="col-md-4 col-md-offset-4 element" style="height: 160px; width: 370px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Freelance</h4>
-                <p>Depuis juin 2017</p>
-                <p>Réalisation de sites vitrine, emailing, études de marché, budgétisation, tableaux de bord, SEM.</p>
+            <li class="chrono-item">
+              <div class="chrono-badge" style="left: 35px"><a href="https://waiter.fr/" target="_blank"><img src="Images/waiter.png" style="width: 63px"></a></div>
+              <div class="chrono-panel">
+                <div class="chrono-heading">
+                  <h4 class="chrono-title">Waiter</h4>
+                  <h5 style="color: rgb(92, 138, 138)"> Data analyst freelance</h5>
+                  <h6> mai à août 2018 (4 mois)</h6>
+                </div>
+                <div class="chrono-body">
+                  <p>Récolte, netoyage et analyse des données, optimisation des campagnes, A/B testing, data visualisation.</p>
+                </div>
               </div>
-        </div>
-      </div>
-      <!-- Ordinateur -->
+            </li>
 
-      <!-- Tablette -->
-      <div class="hidden-xs hidden-lg hidden-md row">
-        <div class="col-sm-4 col-sm-offset-3 element" style="height: 160px; width: 370px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Freelance</h4>
-                <p>Depuis juin 2017</p>
-                <p>Réalisation de sites vitrine, emailing, études de marché, budgétisation, tableaux de bord, SEM.</p>
+            <li class="chrono-item" style="right: 60px">
+              <div class="chrono-badge" style="left: 20px"><a href="https://www.francetelevisions.fr/" target="_blank"><img src="Images/FTV.png" style="width: 100px"></a></div>
+              <div class="chrono-panel">
+                <div class="chrono-heading">
+                  <h4 class="chrono-title">France Télévisions</h4>
+                  <h5 style="color: rgb(92, 138, 138)"> Chef de projet publicité numérique junior</h5>
+                  <h6> janvier à juillet 2018 (6 mois)</h6>
+                </div>
+                <div class="chrono-body">
+                  <p>Autopromotion, handshakes, tracking, analyse de données, programmation, participation à la construction d’offres publicitaires évènementielles.</p>
+                </div>
               </div>
-        </div>
-      </div>
-      <!-- Tablette -->
+            </li>
 
-      <!-- Mobile -->
-      <div class="hidden-lg hidden-md hidden-sm row">
-        <div class="col-xs-4 col-xs-offset-1 element" style="height: 178px; width: 340px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Freelance</h4>
-                <p>Depuis juin 2017</p>
-                <p>Réalisation de sites vitrine, emailing, études de marché, budgétisation, tableaux de bord, SEM.</p>
+            <li class="chrono-item" style="right: 120px">
+              <div class="chrono-badge" style="left: 39px"><img src="Images/computer.png" style="width: 60px"></div>
+              <div class="chrono-panel">
+                <div class="chrono-heading">
+                  <h5 style="color: rgb(92, 138, 138)">Freelance</h5>
+                  <h6> juin 2017 à avril 2018 (11 mois)</h6>
+                </div>
+                <div class="chrono-body">
+                  <p>Analyse de données, réalisation de sites vitrine, emailing, études de marché, budgétisation, tableaux de bord, SEM.</p>
+                </div>
               </div>
-        </div>
-      </div>
-      <!-- Mobile -->
+            </li>
 
-      <!-- Ordinateur -->
-      <div class="hidden-xs hidden-sm row" style="margin-top: 50px">
-        <div class="col-md-4 col-md-offset-2 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise.jpg'); height: 200px; width: 370px; background-position: -74px -200px;">
-          <div class="card-description">
-            <h2>Aon</h2>
-            <p>Courtage d'assurance et de réassurance <br> Management des ressources humaines</p>
-          </div>
-          <img class="img-responsive card-user" src="Images/aon.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="http://www.aon.fr/france/default.jsp" ></a>
-        </div>
-
-        <div class="col-md-4 element" style="height: 200px; width: 379px; margin-left: 20px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Stagiaire au sein des Ressources humaines, Paris (15)</h4>
-                <p>Juin-juillet 2014</p>
-                <p>Création et suivi des dossiers d'embauche, préparation des réunions, dossiers administratifs, mise à jour du catalogue de formation.</p>
-             </div>
-        </div>
-      </div>
-      <!-- Ordinateur -->
-
-      <!-- Tablette -->
-      <div class="hidden-xs hidden-lg hidden-md row" style="margin-top: 50px">
-        <div class="col-sm-4 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise.jpg'); height: 200px; width: 370px; background-position: -74px -200px;">
-          <div class="card-description">
-            <h2>Aon</h2>
-            <p>Courtage d'assurance et de réassurance <br> Management des ressources humaines</p>
-          </div>
-          <img class="img-responsive card-user" src="Images/aon.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="http://www.aon.fr/france/default.jsp" ></a>
-        </div>
-
-        <div class="col-sm-2 element" style="height: 200px; width: 379px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Stagiaire au sein des Ressources humaines, Paris (15)</h4>
-                <p>Juin-juillet 2014</p>
-                <p>Création et suivi des dossiers d'embauche, préparation des réunions, dossiers administratifs, mise à jour du catalogue de formation.</p>
-             </div>
-        </div>
-      </div>
-      <!-- Tablette -->
-
-      <!-- Mobile -->
-      <div class="hidden-lg hidden-md hidden-sm row" style="margin-top: 50px">
-        <div class="col-xs-4 col-xs-offset-1 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise.jpg'); height: 200px; width: 340px; background-position: -74px -200px;">
-          <div class="card-description">
-            <h2>Aon</h2>
-            <p>Courtage d'assurance et de réassurance <br> Management des ressources humaines</p>
-          </div>
-          <img class="img-responsive card-user" src="Images/aon.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="http://www.aon.fr/france/default.jsp" ></a>
-        </div>
-
-        <div class="col-xs-4 col-xs-offset-1 element" style="height: 240px; width: 340px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Stagiaire au sein des Ressources humaines, Paris (15)</h4>
-                <p>Juin-juillet 2014</p>
-                <p>Création et suivi des dossiers d'embauche, préparation des réunions, dossiers administratifs, mise à jour du catalogue de formation.</p>
-             </div>
-        </div>
-      </div>
-      <!-- Mobile -->
-
-      <!-- Ordinateur -->
-      <div class="hidden-xs hidden-sm row" style="margin-top: 50px">
-        <div class="col-md-4 col-md-offset-2 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise2.jpg'); height: 200px; width: 370px; background-position: 0px -101px;">
-          <div class="card-description">
-            <h2>EDF</h2>
-            <p>Leader de l'énergie</p>
-          </div>
-          <img class="img-responsive card-user" src="Images/EDF.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="https://www.edf.fr/" ></a>
-        </div>
-
-        <div class="col-md-4 element" style="height: 200px; width: 379px; margin-left: 20px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 24px">
-                <h4>Agent administratif au sein des Ressources humaines, Nanterre (92)</h4>
-                <p>Juillet 2013</p>
-                <p>Formation, dossiers d'embauche, rédaction d'articles de communication RH.</p>
+            <li class="chrono-item" style="right: 179px">
+            <div class="chrono-badge" style="left: 36px"><img src="Images/aon.png" style="width: 67px"></div>
+              <div class="chrono-panel">
+                <div class="chrono-heading">
+                  <h4 class="chrono-title">AON</h4>
+                  <h5 style="color: rgb(92, 138, 138)">Stagiaire au sein des Ressources Humaines</h5>
+                  <h6> juin à juillet 2014 (2 mois)</h6>
+                </div>
+                <div class="chrono-body">
+                  <p>Mise a jour du catalogue de formation, dossiers d’embauche, création de visuels, appui aux responsables RH.</p>
+                </div>
               </div>
-        </div>
-      </div>
-      <!-- Ordinateur -->
+            </li>
 
-      <!-- Tablette -->
-      <div class="hidden-xs hidden-lg hidden-md row" style="margin-top: 50px">
-        <div class="col-sm-4 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise2.jpg'); height: 200px; width: 370px; background-position: 0px -101px;">
-          <div class="card-description">
-            <h2>EDF</h2>
-            <p>Leader de l'énergie</p>
-          </div>
-          <img class="img-responsive card-user" src="Images/EDF.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="https://www.edf.fr/" ></a>
-        </div>
-
-        <div class="col-sm-2 element" style="height: 200px; width: 379px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 26px">
-                <h4>Agent administratif au sein des Ressources humaines, Nanterre (92)</h4>
-                <p>Juillet 2013</p>
-                <p>Formation, dossiers d'embauche, rédaction d'articles de communication RH.</p>
+            <li class="chrono-item" style="right: 236px">
+            <div class="chrono-badge" style="left: 29px"><img src="Images/EDF.png" style="width: 85px"></div>
+              <div class="chrono-panel">
+                <div class="chrono-heading">
+                  <h4 class="chrono-title">EDF</h4>
+                  <h5 style="color: rgb(92, 138, 138)">Agent administratif au sein des Ressources Humaines</h5>
+                  <h6> juillet 2013 (1 mois)</h6>
+                </div>
+                <div class="chrono-body">
+                  <p>Formation, dossiers d’embauche, rédaction d’articles de communication.</p>
+                </div>
               </div>
+            </li>
+
+          </ul>
+        </div>
         </div>
       </div>
-      <!-- Tablette -->
-
-      <!-- Mobile -->
-      <div class="hidden-lg hidden-md hidden-sm row" style="margin-top: 50px">
-        <div class="col-xs-4 col-xs-offset-1 card2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('Images/entreprise2.jpg'); height: 174px; width: 340px; background-position: 0px -101px">
-          <div class="card-description">
-            <h2>EDF</h2>
-            <p>Leader de l'énergie</p>
-          </div>
-          <img class="img-responsive  card-user" src="Images/EDF.png" style="height: 30px; width: 60px">
-          <a class="card-link" target="_blank" href="https://www.edf.fr/" ></a>
-        </div>
-
-        <div class="col-xs-4 col-xs-offset-1 element" style="height: 195px; width: 340px">
-          <div class="top-border"></div>
-            <div class="bottom-border"></div>
-              <div class="content" style="padding: 20px">
-                <h4>Agent administratif au sein des Ressources humaines, Nanterre (92)</h4>
-                <p>Juillet 2013</p>
-                <p>Formation, dossiers d'embauche, rédaction d'articles de communication RH.</p>
-              </div>
-        </div>
-      </div>
-      <!-- Mobile -->
-
     </div>
-	</div>
+
+  <!-- End Ordinateur -->
+
+  <!-- Mobile -->
+    <div class="hidden-md hidden-lg container">
+    <center><h3 style="padding-top: 30px">Mes expériences</h3></center>
+    <div class="bordure" style= "border-bottom : 3px solid rgb(92, 138, 138); width: 100px; margin-left: 94px"></div>
+
+      <div class="row" style="margin-top: 20px">
+        <div class="col-xs-12" style="left: 15px">
+          <ul class="chronomo">
+
+            <li class="chronomo-item">
+              <div class="chronomo-badge" style="left: 150px"><a href="https://waiter.fr/" target="_blank"><img src="Images/waiter.png" style="width: 44px"></a></div>
+              <div class="chronomo-panel">
+                <div class="chronomo-heading">
+                  <h5 class="chronomo-title">Waiter</h5>
+                  <h6 style="color: rgb(92, 138, 138)"> Data analyst freelance</h6>
+                  <p style="font-size: 10px"> mai à août 2018 (4 mois)</p>
+                </div>
+                <div class="chronomo-body">
+                  <h6>Récolte, netoyage et analyse des données, optimisation des campagnes, A/B testing, data visualisation.</h6>
+                </div>
+              </div>
+            </li>
+
+            <li class="chronomo-item">
+            <div class="chronomo-badge" style="left: 107px"><a href="https://www.francetelevisions.fr/" target="_blank"><img src="Images/FTV.png" style="width: 74px"></a></div>
+              <div class="chronomo-panel">
+                <div class="chronomo-heading">
+                  <h5 class="chronomo-title">France Télévisions</h5>
+                  <h6 style="color: rgb(92, 138, 138)"> Chef de projet publicité numérique junior</h6>
+                  <p style="font-size: 10px"> janvier à juillet 2018 (6 mois)</p>
+                </div>
+                <div class="chronomo-body">
+                  <h6>Autopromotion, handshakes, tracking, analyse de données, programmation, participation à la construction d’offres publicitaires évènementielles.</h6>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="chronomo-item">
+              <div class="chronomo-badge" style="left: 150px"><img src="Images/computer.png" style="width: 45px"></div>
+              <div class="chronomo-panel">
+                <div class="chronomo-heading">
+                  <h6 style="color: rgb(92, 138, 138); margin-top: 0px">Freelance</h6>
+                  <p style="font-size: 10px"> juin 2017 à avril 2018 (11 mois)</p>
+                </div>
+                <div class="chronomo-body">
+                  <h6>Analyse de données, réalisation de sites vitrine, emailing, études de marché, budgétisation, tableaux de bord, SEM.</h6>
+                </div>
+              </div>
+            </li>
+
+            <li class="chronomo-item">
+            <div class="chronomo-badge" style="left: 120px"><img src="Images/aon.png" style="width: 50px"></div>
+              <div class="chronomo-panel">
+                <div class="chronomo-heading">
+                  <h5 class="chronomo-title">AON</h5>
+                  <h6 style="color: rgb(92, 138, 138)">Stagiaire au sein des Ressources Humaines</h6>
+                  <p style="font-size: 10px"> juin à juillet 2014 (2 mois)</p>
+                </div>
+                <div class="chronomo-body">
+                  <h6>Mise a jour du catalogue de formation, dossiers d’embauche, création de visuels, appui aux responsables RH.</h6>
+                </div>
+              </div>
+            </li>
+
+            <li class="chronomo-item">
+            <div class="chronomo-badge" style="left: 155px"><img src="Images/EDF.png" style="width: 70px"></div>
+              <div class="chronomo-panel">
+                <div class="chronomo-heading">
+                  <h5 class="chronomo-title">EDF</h5>
+                  <h6 style="color: rgb(92, 138, 138)">Agent administratif au sein des Ressources Humaines</h6>
+                  <p style="font-size: 10px"> juillet 2013 (1 mois)</p>
+                </div>
+                <div class="chronomo-body">
+                  <h6>Formation, dossiers d’embauche, rédaction d’articles de communication.</h6>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  <!-- End Mobile -->
 
 	<!--End Mes experiences-->
 
